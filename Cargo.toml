@@ -1,0 +1,8 @@
+[package]
+name = "linear_algebra_in_rust"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+nalgebra = "0.35.0"
+ndarray = "0.17.2"
