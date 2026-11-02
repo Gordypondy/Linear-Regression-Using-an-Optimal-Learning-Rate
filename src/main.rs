@@ -104,7 +104,7 @@ fn train(
         );
 
         // Monitor training
-        if epoch % 50 == 0 {
+        if epoch % 1000 == 0 {
             println!(
                 "Epoch: {:5} | Loss: {:.6} | Weight: {:.6} | Bias: {:.6}",
                 epoch, loss, weight, bias
